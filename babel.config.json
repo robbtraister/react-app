@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    [
+      "@babel/transform-runtime",
+      {
+        "absoluteRuntime": true
+      }
+    ]
+  ],
+  "presets": [
+    "@babel/env",
+    "@babel/react",
+    [
+      "@babel/typescript",
+      {
+        "isTSX": true,
+        "allExtensions": true
+      }
+    ]
+  ],
+  "sourceType": "unambiguous"
+}

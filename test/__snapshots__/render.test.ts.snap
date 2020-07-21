@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render render home 1`] = `"<!DOCTYPE html><html lang=\\"en\\"><head><base href=\\"/\\"/><meta charSet=\\"utf-8\\"/><meta name=\\"viewport\\" content=\\"width=device-width,minimum-scale=1,initial-scale=1\\"/><link rel=\\"stylesheet\\" href=\\"dist/styles.css\\"/><script src=\\"dist/html.js\\" defer=\\"\\"></script></head><body><div id=\\"root\\"><h1>Home</h1></div></body></html>"`;
+
+exports[`Render render home in amp 1`] = `
+"<!DOCTYPE html><html amp=\\"\\" lang=\\"en\\"><head><base href=\\"/\\"/><link rel=\\"canonical\\" href=\\"https://localhost:8080/home?format=amp\\"/><meta charSet=\\"utf-8\\"/><meta name=\\"viewport\\" content=\\"width=device-width,minimum-scale=1,initial-scale=1\\"/><script async=\\"\\" src=\\"https://cdn.ampproject.org/v0.js\\"></script><script async=\\"\\" custom-element=\\"amp-script\\" src=\\"https://cdn.ampproject.org/v0/amp-script-0.1.js\\"></script><style amp-boilerplate=\\"\\">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate=\\"\\">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><style amp-custom=\\"\\">html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+</style></head><body><amp-script layout=\\"responsive\\" width=\\"9\\" height=\\"16\\" src=\\"https://localhost:8080/dist/amp.js\\" sandbox=\\"allow-forms\\"><input type=\\"hidden\\" name=\\"location\\" value=\\"/home?format=amp\\"/><div id=\\"root\\"></div></amp-script></body></html>"
+`;
